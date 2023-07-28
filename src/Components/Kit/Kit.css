@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.Kit{
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    margin-left: 304px;
+    gap: auto;
+    max-width: 1920px;
+    height: auto;
+}
+
+.Kit-Text-Box{
+    display: flex;
+    min-width: 550px;
+    max-width: 750px;
+    padding: 84px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+.Kit-Text-Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    margin: 0;
+}
+
+.Kit-Text-Heading h1{
+    color: var(--light-pure-black, #000);
+    font-family: 'Unbounded';
+    margin: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.Kit-Text-Heading p{
+    color: var(--light-pure-black, #000);
+    font-family: 'Inter';
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Kit-Metrics{
+    display: flex;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.Metric1,
+.Metric2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.Metric1 h1,
+.Metric2 h1{
+    color: var(--light-pure-black, #000);
+    margin: 0;
+    font-family: 'Unbounded';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+}
+.Metric1 p,
+.Metric2 p{
+    color: var(--light-pure-black, #000);
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.Kit-Button{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 256px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kit-Button button{
+    padding: 16px;
+    width: 256px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--p-h-purple-400, #7356BF);
+    color: var(--p-h-pure-white, var(--p-h-pure-white, #FFF));
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.Kit-Background img{
+    max-width: 600px;
+    flex: 1 0 0;
+    align-self: stretch;
+    height: stretch;
+}

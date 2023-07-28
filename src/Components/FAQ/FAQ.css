@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.FAQ-Component{
+    display: flex;
+    padding: 84px 304px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.FAQ-Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.FAQ-Text h1{
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    font-family: 'Unbounded';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 0;
+}
+
+.FAQ-Text p{
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 0;
+}
+
+.Questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    align-self: stretch;
+}
+
+.Q1{
+    display: flex;
+    padding: 36px 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 3px solid rgba(0, 0, 0, 0.30);
+}
+
+.QnA{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    align-self: stretch;
+    width: 100%;
+}
+
+
+.QnA-Text h1{
+    display: flex;
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    margin: 0;
+}
+
+.Q2,
+.Q3,
+.Q4{
+    display: flex;
+    padding: 36px 48px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 3px solid rgba(0, 0, 0, 0.30);  
+}

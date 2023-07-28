@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.Features{
+    display: flex;
+    padding: 84px 304px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.Features-Column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    width: auto;
+}
+
+.Features-Heading{
+    width: 1312px;
+}
+.Features-Heading h1{
+    text-align: left;
+    color: var(--light-pure-black, #000);
+    font-family: 'Unbounded';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+    margin: 0;
+}
+.Features-Cubes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 36px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Cube1,
+.Cube2,
+.Cube3,
+.Cube4,
+.Cube5,
+.Cube6{
+    display: flex;
+    min-width: 420px;
+    max-width: 620px;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.Cube1-content,
+.Cube2-content,
+.Cube3-content,
+.Cube4-content,
+.Cube5-content,
+.Cube6-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.Cube1-content h1,
+.Cube2-content h1,
+.Cube3-content h1,
+.Cube4-content h1,
+.Cube5-content h1,
+.Cube6-content h1{
+    color: var(--light-pure-black, #000);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+.Cube1-content p,
+.Cube2-content p,
+.Cube3-content p,
+.Cube4-content p,
+.Cube5-content p,
+.Cube6-content p{
+    color: var(--light-pure-black, #000);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin: 0;
+}

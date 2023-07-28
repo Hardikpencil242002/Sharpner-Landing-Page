@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.Who{
+    display: flex;
+    padding: 84px 304px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    gap: 64px;
+}
+
+.Who-Component{
+    display: flex;
+    flex-direction: column;
+    width: 1312px;
+    height: 416px;
+    gap: 64px;
+}
+
+.Who-Heading h1{
+    color: var(--light-pure-black, #000);
+    font-family: 'Unbounded';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+}
+.Who-Options{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 36px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Option1,
+.Option2,
+.Option3,
+.Option4{
+    display: flex;
+    height: 300px;
+    min-width: 246px;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    flex: 1 0 0;
+}
+
+.Option1-img img,
+.Option2-img img,
+.Option3-img img,
+.Option4-img img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.Option1-Content h1,
+.Option2-Content h1,
+.Option3-Content h1,
+.Option4-Content h1{
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.Option1-Content p,
+.Option2-Content p,
+.Option3-Content p,
+.Option4-Content p{
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}

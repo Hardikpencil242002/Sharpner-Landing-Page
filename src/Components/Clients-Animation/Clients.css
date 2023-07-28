@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.Client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    background: var(--p-h-pure-white, #FFF);
+    width: 100%;
+}
+
+.Heading{
+    align-self: stretch;
+    color: var(--light-pure-black, #000);
+    text-align: center;
+    font-family: 'Unbounded';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.Client-Logos{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Matchday img{
+    width: 112px;
+    height: 48px;
+    padding: 5px;
+}
+
+.Locus img{
+    width: 194.667px;
+    height: 80px;
+}
+
+.Antriksh1 img{
+    width: 194.667px;
+    height: 80px;
+}
+
+.Jukisho img{
+    width: 112px;
+    height: 48px;
+}
+
+.Antriksh2 img{
+    width: 194.667px;
+    height: 80px;
+}
+
+.Bradsol img{
+    width: 112px;
+    height: 45px;
+}
