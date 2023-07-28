@@ -12,18 +12,18 @@ import Footer from './Components/Footer/Footer';
 import './App.css';
 
 function App() {
-  return (    
-  <>
-  <Navbar/>
-  <Herosection/>
-  <Benefits/>
-  <Clients/>
-  <Kit/>
-  <Features/>
-  <Who/>
-  <Pricing/>
-  <FAQ/>
-  </>
+  return (
+    <>
+      <Navbar />
+      <Herosection />
+      <Benefits />
+      <Clients />
+      <Kit />
+      <Features />
+      <Who />
+      <Pricing />
+      <FAQ />
+    </>
   );
 }
 
